@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+   <head>
+  
+   </head>
+   <body>
+      <p>First Number: <input id="num1"></p>
+      <p>Second Number: <input id="num2"></p>
+      <button onclick="mat()">Submit</button>
+      <br><br>
+
+      <div id="output"></div>
+<script>
+   
+
+const num1 = parseInt(prompt('Enter the first number '));
+const num2 = parseInt(prompt('Enter the second number '));
+
+
+const sum = num1 + num2;
+    
+    
+const num3 = prompt('Sum of two number:  '+ sum);
+    
+
+    var result = document.getElementById('output');
+      result.innerHTML ='OUTPUT :<br><br>'+'Addition:  '+ sum ;
+   
+</script>
+   </body>
+</html>
